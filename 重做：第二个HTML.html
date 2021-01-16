@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>用样式表重做的哲学家简介来了</title>
+    <style>
+        body{
+/*盒子模型 margin border padding*/
+/*margin*/
+            margin:0 auto;/*外边距 */
+                /*
+                    1.当两个容器（可以是父子盒子）的外边距重合时，会采用大的那个外边距进行合并
+                    2.
+                */
+/*border*/
+            border:30px;/*边框*/
+            border-style:ridge;/*不设置的话，值为none，边框就不会显示*/
+            border-color:red;
+
+/*padding*/
+            padding:0px;/*内边距*/
+            padding-bottom:10px;
+            padding-top:1px;
+            /*边距也可以设置百分比，但前提是其父元素要有一个明确的长宽*/
+            padding-left:5%;
+        }
+
+        div{
+            padding:50px;
+        }
+        .one{
+            /*长宽可以与百分比设置，但前提是其父元素（例如body）有明确的长和宽*/
+            width:1920px;
+            height:1080px;
+            background-color:black;/*背景色*/
+            background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1530384235294&di=8ddfaf0ae43956c7389eb60c04f67454&imgtype=0&src=http%3A%2F%2Fatt.bbs.duowan.com%2Fforum%2F201606%2F20%2F092155czxxh8myzyyyq5ym.jpg);/*背景图片*/
+            background-repeat:no-repeat;/*是否重复平铺图片*/
+            background-position:center;/*图片位置*/
+            background-attachment:local;/*图片是否跟随*/
+        }
+        p{
+            border-radius:10px;
+            width:500px;
+            height:500px;
+            /*文本设置*/
+            color:white;
+            text-align:left;
+            text-indent:2em;/*首行缩进*/
+            letter-spacing:1.5px;/*字间距*/
+            line-height:25px;/*行间距*/
+            text-decoration:none;/*下划线*/
+            /*字体设置*/
+            font-family:YouYuan,'Microsoft YaHei';
+            font-size:1em;
+            font-style:italic;
+        }
+    </style>
+</head>
+<body>
+    <p class="one">
+        范·达克霍姆（Van Darkholme，1972年10月24日－）是一位越裔美国㚻片演员、导演及摄影师；又名勃♂力灵♂梦，暗黑势力的头领，拥有极其强大的暗属性精神攻击和洗脑能力，还能使用dark♂拷贝复制对手的招式（与贝奥兰迪一战中拷贝了贝奥兰迪的剪刀脚和足疗）。进入Deep♂Dark♂Fantasy状态后需要王和猎天使魔♂男形态下的贝奥兰迪合力才能击败。
+        性格难以捉摸，兴趣广泛，刻苦练习剑术，喜好SM，经常对手下的“平家BOYS”进行调♂教。其一身皮带地站在储物柜旁叫出口头禅Fa♂Q的场景可谓哲♂学界最经典的镜头之一。曾经在街头现场示范SM的知识并且传教。
+        名台词有 FA♂Q、DEEP♂DARK♂FANTASY、BOY♂NEXT♂DOOR、Do you like WHAT♂YOU♂SEE玩♂游♂戏、SLAVES GET YOUR ASS♂ BACK HERE♂我们一起拉♂大♂便等。
+        在本位面的化身有佟Dark♂为，成龙等，曾出演过由刘德华主演的电影《大Dark♂冒险家》。
+    </p>
+</body>
+</html>
