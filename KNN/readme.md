@@ -5,6 +5,10 @@
 3. `getKNearest(Set r,point x)` 得到点x的k个最邻近点
 4. `test(point x)`  测试待测点x
 
+### 测试结果
+![result]
+(https://github.com/ILoveU3D/Statistic-Learning/blob/gh-pages/KNN/W%5B4B%4047%7D%7B5DFEEE8U~4B%25(M(1).png)
+
 ### kdtree.h
 ```C++
 #include<vector>
