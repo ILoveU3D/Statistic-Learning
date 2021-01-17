@@ -7,7 +7,7 @@
 
 ### 测试结果
 ![result]
-(https://github.com/ILoveU3D/Statistic-Learning/blob/gh-pages/KNN/W%5B4B%4047%7D%7B5DFEEE8U~4B%25(M(1).png)
+(http://a1.qpic.cn/psc?/V51BIuzF0MWGsS2w8dUj3KLBWS2TJRCm/ruAMsa53pVQWN7FLK88i5ku9o83WeHdoUVgDsWc2*gdzrpfwxLNUbAkMPcm076*YdDWm44D3hkaCY22svTXrNDCxyApmQxpRN2YqYD2duN0!/b&ek=1&kp=1&pt=0&bo=hAIhAQAAAAADF5Q!&tl=1&vuin=2360085507&tm=1610888400&sce=60-2-2&rf=viewer_4)
 
 ### kdtree.h
 ```C++
