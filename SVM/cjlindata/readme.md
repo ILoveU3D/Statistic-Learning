@@ -77,3 +77,37 @@
   '-q'：无返回训练
   ```
   
+  ### 有关libsvm的训练函数用法，解释如下：
+  ```
+  """
+	svm_predict(y, x, m [, options]) -> (p_labels, p_acc, p_vals)
+
+	y: a list/tuple/ndarray of l true labels (type must be int/double).
+	   It is used for calculating the accuracy. Use [] if true labels are
+	   unavailable.
+
+	x: 1. a list/tuple of l training instances. Feature vector of
+	      each training instance is a list/tuple or dictionary.
+
+	   2. an l * n numpy ndarray or scipy spmatrix (n: number of features).
+
+	Predict data (y, x) with the SVM model m.
+	options:
+	    -b probability_estimates: whether to predict probability estimates,
+	        0 or 1 (default 0); for one-class SVM only 0 is supported.
+	    -q : quiet mode (no outputs).
+
+	The return tuple contains
+	p_labels: a list of predicted labels
+	p_acc: a tuple including  accuracy (for classification), mean-squared
+	       error, and squared correlation coefficient (for regression).
+	p_vals: a list of decision values or probability estimates (if '-b 1'
+	        is specified). If k is the number of classes, for decision values,
+	        each element includes results of predicting k(k-1)/2 binary-class
+	        SVMs. For probabilities, each element contains k values indicating
+	        the probability that the testing instance is in each class.
+	        Note that the order of classes here is the same as 'model.label'
+	        field in the model structure.
+	"""
+  ```
+  ### 逐行翻译过来即
